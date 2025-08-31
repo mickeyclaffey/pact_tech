@@ -64,5 +64,3 @@ logs/
 .firebase/
 firebase-debug.log
 firestore-debug.log
-
-CLAUDE.md
