@@ -6,9 +6,12 @@ A modern web application for viewing, monitoring, and managing Electronic Health
 
 ## Features
 - View a sortable, filterable table of EHR resources
-- See real-time processing status for each resource
+- When a time column is selected for sorting, absolute time will be displayed for that column as well
+- Add or remove columns you would like to see
+- Search by keyword matching in a specific column
+- Export current rows and columns as CSV
+- See "real-time" processing status for each resource
 - Click a resource to view detailed metadata and history
-- Light and dark mode support
 
 ---
 
