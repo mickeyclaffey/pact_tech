@@ -1,0 +1,110 @@
+[
+  {
+    "resource": {
+      "metadata": {
+        "state": "PROCESSING_STATE_COMPLETED",
+        "createdTime": "2024-08-31T08:00:00.000Z",
+        "fetchTime": "2024-08-31T08:05:00.000Z",
+        "processedTime": "2024-08-31T08:10:00.000Z",
+        "identifier": {
+          "key": "patient-12345-observation-001",
+          "uid": "user-abc-123",
+          "patientId": "patient-12345"
+        },
+        "resourceType": "Observation",
+        "version": "FHIR_VERSION_R4"
+      },
+      "humanReadableStr": "Blood pressure measurement for patient ID patient-12345. Systolic: 120 mmHg, Diastolic: 80 mmHg. Recorded on 2024-08-31 at 08:00 UTC. Normal blood pressure reading.",
+      "aiSummary": "Normal blood pressure reading within healthy range for adult patient. No immediate action required."
+    }
+  },
+  {
+    "resource": {
+      "metadata": {
+        "state": "PROCESSING_STATE_PROCESSING",
+        "createdTime": "2024-08-31T09:15:00.000Z",
+        "fetchTime": "2024-08-31T09:20:00.000Z",
+        "identifier": {
+          "key": "patient-67890-medication-002",
+          "uid": "user-def-456",
+          "patientId": "patient-67890"
+        },
+        "resourceType": "MedicationRequest",
+        "version": "FHIR_VERSION_R4"
+      },
+      "humanReadableStr": "Medication prescription for patient ID patient-67890. Prescribed: Lisinopril 10mg daily for hypertension. Duration: 30 days. Prescriber: Dr. Smith."
+    }
+  },
+  {
+    "resource": {
+      "metadata": {
+        "state": "PROCESSING_STATE_FAILED",
+        "createdTime": "2024-08-31T07:30:00.000Z",
+        "fetchTime": "2024-08-31T07:35:00.000Z",
+        "processedTime": "2024-08-31T07:40:00.000Z",
+        "identifier": {
+          "key": "patient-11111-allergy-003",
+          "uid": "user-ghi-789",
+          "patientId": "patient-11111"
+        },
+        "resourceType": "AllergyIntolerance",
+        "version": "FHIR_VERSION_R4"
+      },
+      "humanReadableStr": "Allergy information for patient ID patient-11111. Allergic to: Penicillin. Severity: High. Reaction type: Anaphylaxis. Last reaction: 2023-05-15.",
+      "aiSummary": "Critical allergy alert - patient has severe penicillin allergy with history of anaphylaxis. Immediate medical attention required if exposed."
+    }
+  },
+  {
+    "resource": {
+      "metadata": {
+        "state": "PROCESSING_STATE_NOT_STARTED",
+        "createdTime": "2024-08-31T10:45:00.000Z",
+        "fetchTime": "2024-08-31T10:50:00.000Z",
+        "identifier": {
+          "key": "patient-22222-encounter-004",
+          "uid": "user-jkl-012",
+          "patientId": "patient-22222"
+        },
+        "resourceType": "Encounter",
+        "version": "FHIR_VERSION_R4B"
+      },
+      "humanReadableStr": "Hospital encounter for patient ID patient-22222. Admission date: 2024-08-30. Department: Emergency. Chief complaint: Chest pain. Status: Active."
+    }
+  },
+  {
+    "resource": {
+      "metadata": {
+        "state": "PROCESSING_STATE_COMPLETED",
+        "createdTime": "2024-08-31T06:20:00.000Z",
+        "fetchTime": "2024-08-31T06:25:00.000Z",
+        "processedTime": "2024-08-31T06:30:00.000Z",
+        "identifier": {
+          "key": "patient-33333-patient-005",
+          "uid": "user-mno-345",
+          "patientId": "patient-33333"
+        },
+        "resourceType": "Patient",
+        "version": "FHIR_VERSION_R4"
+      },
+      "humanReadableStr": "Patient demographics for patient ID patient-33333. Name: John Doe. DOB: 1985-03-15. Gender: Male. Address: 123 Main St, Anytown, ST 12345. Contact: (555) 123-4567.",
+      "aiSummary": "Active patient record with complete demographic information and valid contact details."
+    }
+  },
+  {
+    "resource": {
+      "metadata": {
+        "state": "PROCESSING_STATE_UNSPECIFIED",
+        "createdTime": "2024-08-31T11:00:00.000Z",
+        "fetchTime": "2024-08-31T11:05:00.000Z",
+        "identifier": {
+          "key": "patient-44444-diagnostic-006",
+          "uid": "user-pqr-678",
+          "patientId": "patient-44444"
+        },
+        "resourceType": "DiagnosticReport",
+        "version": "FHIR_VERSION_R4"
+      },
+      "humanReadableStr": "Lab results for patient ID patient-44444. Test: Complete Blood Count (CBC). Results: WBC: 7.2, RBC: 4.5, Hemoglobin: 14.2, Platelets: 250. All values within normal range."
+    }
+  }
+]
