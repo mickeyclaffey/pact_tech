@@ -106,5 +106,209 @@
       },
       "humanReadableStr": "Lab results for patient ID patient-44444. Test: Complete Blood Count (CBC). Results: WBC: 7.2, RBC: 4.5, Hemoglobin: 14.2, Platelets: 250. All values within normal range."
     }
+  },
+  {
+    "resource": {
+      "metadata": {
+        "state": "PROCESSING_STATE_COMPLETED",
+        "createdTime": "2024-09-01T08:00:00.000Z",
+        "fetchTime": "2024-09-01T08:05:00.000Z",
+        "processedTime": "2024-09-01T08:10:00.000Z",
+        "identifier": {
+          "key": "patient-55555-immunization-007",
+          "uid": "user-xyz-111",
+          "patientId": "patient-55555"
+        },
+        "resourceType": "Immunization",
+        "version": "FHIR_VERSION_R4"
+      },
+      "humanReadableStr": "Immunization record for patient ID patient-55555. Vaccine: Influenza. Date: 2024-09-01. Administered by: Nurse Kelly.",
+      "aiSummary": "Patient immunized for influenza. No adverse reactions reported."
+    }
+  },
+  {
+    "resource": {
+      "metadata": {
+        "state": "PROCESSING_STATE_PROCESSING",
+        "createdTime": "2024-09-02T10:15:00.000Z",
+        "fetchTime": "2024-09-02T10:20:00.000Z",
+        "identifier": {
+          "key": "patient-66666-procedure-008",
+          "uid": "user-uvw-222",
+          "patientId": "patient-66666"
+        },
+        "resourceType": "Procedure",
+        "version": "FHIR_VERSION_R4B"
+      },
+      "humanReadableStr": "Procedure record for patient ID patient-66666. Procedure: Appendectomy. Date: 2024-09-02. Surgeon: Dr. Lee.",
+      "aiSummary": "Appendectomy performed successfully. No complications noted."
+    }
+  },
+  {
+    "resource": {
+      "metadata": {
+        "state": "PROCESSING_STATE_FAILED",
+        "createdTime": "2024-09-03T07:30:00.000Z",
+        "fetchTime": "2024-09-03T07:35:00.000Z",
+        "processedTime": "2024-09-03T07:40:00.000Z",
+        "identifier": {
+          "key": "patient-77777-lab-009",
+          "uid": "user-rst-333",
+          "patientId": "patient-77777"
+        },
+        "resourceType": "LabResult",
+        "version": "FHIR_VERSION_R4"
+      },
+      "humanReadableStr": "Lab result for patient ID patient-77777. Test: Lipid Panel. Cholesterol: 250 mg/dL. Triglycerides: 180 mg/dL.",
+      "aiSummary": "Elevated cholesterol and triglycerides. Recommend dietary changes and follow-up."
+    }
+  },
+  {
+    "resource": {
+      "metadata": {
+        "state": "PROCESSING_STATE_NOT_STARTED",
+        "createdTime": "2024-09-04T10:45:00.000Z",
+        "fetchTime": "2024-09-04T10:50:00.000Z",
+        "identifier": {
+          "key": "patient-88888-vital-010",
+          "uid": "user-opq-444",
+          "patientId": "patient-88888"
+        },
+        "resourceType": "VitalSign",
+        "version": "FHIR_VERSION_R4B"
+      },
+      "humanReadableStr": "Vital sign record for patient ID patient-88888. BP: 130/85 mmHg. Pulse: 78 bpm. Temp: 98.6 F.",
+      "aiSummary": "Vital signs within normal range. No immediate concerns."
+    }
+  },
+  {
+    "resource": {
+      "metadata": {
+        "state": "PROCESSING_STATE_COMPLETED",
+        "createdTime": "2024-09-05T06:20:00.000Z",
+        "fetchTime": "2024-09-05T06:25:00.000Z",
+        "processedTime": "2024-09-05T06:30:00.000Z",
+        "identifier": {
+          "key": "patient-99999-medication-011",
+          "uid": "user-lmn-555",
+          "patientId": "patient-99999"
+        },
+        "resourceType": "MedicationStatement",
+        "version": "FHIR_VERSION_R4"
+      },
+      "humanReadableStr": "Medication statement for patient ID patient-99999. Medication: Metformin 500mg. Frequency: Twice daily.",
+      "aiSummary": "Patient adherent to prescribed Metformin regimen. Blood sugar controlled."
+    }
+  },
+  {
+    "resource": {
+      "metadata": {
+        "state": "PROCESSING_STATE_UNSPECIFIED",
+        "createdTime": "2024-09-06T11:00:00.000Z",
+        "fetchTime": "2024-09-06T11:05:00.000Z",
+        "identifier": {
+          "key": "patient-10101-imaging-012",
+          "uid": "user-efg-666",
+          "patientId": "patient-10101"
+        },
+        "resourceType": "ImagingStudy",
+        "version": "FHIR_VERSION_R4"
+      },
+      "humanReadableStr": "Imaging study for patient ID patient-10101. Modality: X-ray. Body part: Chest. Date: 2024-09-06.",
+      "aiSummary": "No acute findings on chest X-ray. Lungs clear."
+    }
+  },
+  {
+    "resource": {
+      "metadata": {
+        "state": "PROCESSING_STATE_COMPLETED",
+        "createdTime": "2025-08-30T14:00:00.000Z",
+        "fetchTime": "2025-08-30T14:05:00.000Z",
+        "processedTime": "2025-08-30T14:10:00.000Z",
+        "identifier": {
+          "key": "patient-20201-lab-013",
+          "uid": "user-abc-777",
+          "patientId": "patient-20201"
+        },
+        "resourceType": "LabResult",
+        "version": "FHIR_VERSION_R4"
+      },
+      "humanReadableStr": "Lab result for patient ID patient-20201. Test: Hemoglobin A1c. Result: 5.8%.",
+      "aiSummary": "Normal A1c. No diabetes detected."
+    }
+  },
+  {
+    "resource": {
+      "metadata": {
+        "state": "PROCESSING_STATE_PROCESSING",
+        "createdTime": "2025-08-29T09:00:00.000Z",
+        "fetchTime": "2025-08-29T09:05:00.000Z",
+        "identifier": {
+          "key": "patient-30302-imaging-014",
+          "uid": "user-def-888",
+          "patientId": "patient-30302"
+        },
+        "resourceType": "ImagingStudy",
+        "version": "FHIR_VERSION_R4B"
+      },
+      "humanReadableStr": "Imaging study for patient ID patient-30302. Modality: MRI. Body part: Brain. Date: 2025-08-29.",
+      "aiSummary": "No acute findings on MRI."
+    }
+  },
+  {
+    "resource": {
+      "metadata": {
+        "state": "PROCESSING_STATE_FAILED",
+        "createdTime": "2005-03-15T11:30:00.000Z",
+        "fetchTime": "2005-03-15T11:35:00.000Z",
+        "processedTime": "2005-03-15T11:40:00.000Z",
+        "identifier": {
+          "key": "patient-40404-encounter-015",
+          "uid": "user-ghi-999",
+          "patientId": "patient-40404"
+        },
+        "resourceType": "Encounter",
+        "version": "FHIR_VERSION_R4"
+      },
+      "humanReadableStr": "Hospital encounter for patient ID patient-40404. Admission date: 2005-03-15. Department: Cardiology.",
+      "aiSummary": "Discharged after successful treatment."
+    }
+  },
+  {
+    "resource": {
+      "metadata": {
+        "state": "PROCESSING_STATE_NOT_STARTED",
+        "createdTime": "2001-12-01T08:00:00.000Z",
+        "fetchTime": "2001-12-01T08:05:00.000Z",
+        "identifier": {
+          "key": "patient-50505-medication-016",
+          "uid": "user-jkl-000",
+          "patientId": "patient-50505"
+        },
+        "resourceType": "MedicationRequest",
+        "version": "FHIR_VERSION_R4B"
+      },
+      "humanReadableStr": "Medication request for patient ID patient-50505. Medication: Amoxicillin 500mg. Frequency: Three times daily.",
+      "aiSummary": "Antibiotic prescribed for infection."
+    }
+  },
+  {
+    "resource": {
+      "metadata": {
+        "state": "PROCESSING_STATE_COMPLETED",
+        "createdTime": "2000-01-01T00:00:00.000Z",
+        "fetchTime": "2000-01-01T00:05:00.000Z",
+        "processedTime": "2000-01-01T00:10:00.000Z",
+        "identifier": {
+          "key": "patient-60606-patient-017",
+          "uid": "user-mno-111",
+          "patientId": "patient-60606"
+        },
+        "resourceType": "Patient",
+        "version": "FHIR_VERSION_R4"
+      },
+      "humanReadableStr": "Patient demographics for patient ID patient-60606. Name: Jane Smith. DOB: 1970-05-20. Gender: Female.",
+      "aiSummary": "Active patient record. No known allergies."
+    }
   }
 ]

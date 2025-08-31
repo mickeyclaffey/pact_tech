@@ -37,9 +37,6 @@ export function ResourceDetailDialog({ resource, open, onOpenChange }: ResourceD
             <div className="mt-1 text-xs text-muted-foreground">
               Resource ID: <span className="font-mono text-foreground">{metadata.identifier.key.split('-').slice(-1)[0]}</span>
             </div>
-            <DialogDescription className="mt-2 text-base">
-              Detailed resource information and processing metadata
-            </DialogDescription>
           </div>
         </DialogHeader>
 
@@ -110,9 +107,6 @@ export function ResourceDetailDialog({ resource, open, onOpenChange }: ResourceD
           <Card>
             <CardHeader>
               <CardTitle className="text-lg">Human Readable Description</CardTitle>
-              <CardDescription>
-                Human-friendly interpretation of the resource
-              </CardDescription>
             </CardHeader>
             <CardContent>
               <div className="bg-muted rounded-md p-4">
@@ -128,9 +122,6 @@ export function ResourceDetailDialog({ resource, open, onOpenChange }: ResourceD
             <Card>
               <CardHeader>
                 <CardTitle className="text-lg">AI Summary</CardTitle>
-                <CardDescription>
-                  AI-generated summary of the resource
-                </CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="bg-blue-50 dark:bg-blue-950/20 rounded-md p-4">
