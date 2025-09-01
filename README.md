@@ -21,7 +21,7 @@ A modern web application for viewing, monitoring, and managing Electronic Health
 
 ### 1. Clone the Repository
 ```sh
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/mickeyclaffey/pact_tech.git
 cd pact_tech/ehr-resource-viewer
 ```
 
