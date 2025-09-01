@@ -10,8 +10,10 @@ A modern web application for viewing, monitoring, and managing Electronic Health
 - Add or remove columns you would like to see
 - Search by keyword matching in a specific column
 - Export current rows and columns as CSV
-- See "real-time" processing status for each resource
+- Renders as soon as enough rows for one page are fetched
 - Click a resource to view detailed metadata and history
+- Filters, selected columns, page sizes, etc. are not saved anywhere on refresh
+- Note: all logic is client-side due to small size of sample data I created, I would implement server-side pagination and querying if dataset were to become large
 
 ---
 
